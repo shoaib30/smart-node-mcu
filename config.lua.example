@@ -1,0 +1,12 @@
+-- file : config.lua
+local module = {}
+
+module.SSID = {}
+module.SSID["myWifi"] = "12345679ABCDEF"
+
+module.HOST = "broker.example.com"
+module.PORT = 1884
+module.ID = node.chipid()
+
+module.ENDPOINT = "nodemcu/"
+return module
